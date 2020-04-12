@@ -14,9 +14,6 @@ https://github.com/elixir-lsp/elixir-ls
 
 Elixir language server.
 ]];
-    default_config = {
-      root_dir = [[root_pattern("mix.exs", ".git")]];
-    };
   };
 }
 -- vim:et ts=2 sw=2
