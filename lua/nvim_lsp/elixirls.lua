@@ -1,7 +1,7 @@
 local configs = require 'nvim_lsp/configs'
 local util = require 'nvim_lsp/util'
 
-configs[server_name] = {
+configs.elixirls = {
   default_config = {
     cmd = {"elixirls"};
     filetypes = {"elixir", "eex"};
